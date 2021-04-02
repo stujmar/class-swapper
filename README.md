@@ -1,5 +1,5 @@
 # class-swapper
-This is a little utility I have in mind for working with tailwind in React.
+This is a little utility I have in mind for working with Tailwind CSS and React.
 
 ## Use
 
@@ -18,11 +18,11 @@ Now there are two ways to use it.
 1. Having it replace all your classes.
 2. Having it replace the differences in your classes.
    
-They both have their strengths one looks simple in your jsx but abstracts your classname, the other requires the addition of string templating.
+They both have their strength. One looks simple in your jsx but abstracts your classname, the other requires the addition of string templating.
 
 ### First Case
 
-pass in the conditional value your conditional classes then all your base classes. This way your jsx is very concise.
+Pass in the conditional value, your conditional classes, then all your base classes. This way, your jsx is very concise.
 
 ```javascript
 import React, { useState, useEffect } from 'react';
@@ -52,7 +52,7 @@ const myComponent = () => {
 
 ### Second Case
 
-pass in the conditional value your conditional classes. omit your base classes. This way your don't abstract/abscure your classes from your jsx.
+Pass in the conditional value and your conditional classes. Omit your base classes. This way, you don't abstract/obscure your classes from your jsx.
 
 ```javascript
 import React, { useState, useEffect } from 'react';
