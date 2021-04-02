@@ -1,0 +1,25 @@
+{
+  "name": "class-swapper",
+  "version": "1.0.0",
+  "description": "A utility to swap html classes, great for React with Tailwind.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stujmar/class-swapper.git"
+  },
+  "keywords": [
+    "class",
+    "swapper",
+    "react",
+    "tailwind"
+  ],
+  "author": "Stuart Marsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stujmar/class-swapper/issues"
+  },
+  "homepage": "https://github.com/stujmar/class-swapper#readme"
+}
